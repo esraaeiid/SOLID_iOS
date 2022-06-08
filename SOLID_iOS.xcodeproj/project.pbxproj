@@ -21,6 +21,10 @@
 		0254209A28508C5700EE3C76 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0254209928508C5700EE3C76 /* Student.swift */; };
 		0254209C28508C6900EE3C76 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0254209B28508C6900EE3C76 /* Course.swift */; };
 		0254209E2850923D00EE3C76 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0254209D2850923D00EE3C76 /* Logger.swift */; };
+		025420A02850976A00EE3C76 /* Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0254209F2850976A00EE3C76 /* Rectangle.swift */; };
+		025420A22850978000EE3C76 /* Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025420A12850978000EE3C76 /* Square.swift */; };
+		025420A42850978B00EE3C76 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025420A32850978B00EE3C76 /* Client.swift */; };
+		025420A628509E1900EE3C76 /* Polygon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025420A528509E1900EE3C76 /* Polygon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +44,10 @@
 		0254209928508C5700EE3C76 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 		0254209B28508C6900EE3C76 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
 		0254209D2850923D00EE3C76 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		0254209F2850976A00EE3C76 /* Rectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangle.swift; sourceTree = "<group>"; };
+		025420A12850978000EE3C76 /* Square.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Square.swift; sourceTree = "<group>"; };
+		025420A32850978B00EE3C76 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		025420A528509E1900EE3C76 /* Polygon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Polygon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +121,10 @@
 		0254208D2850869500EE3C76 /* Liskov Substitution  */ = {
 			isa = PBXGroup;
 			children = (
+				025420A528509E1900EE3C76 /* Polygon.swift */,
+				0254209F2850976A00EE3C76 /* Rectangle.swift */,
+				025420A12850978000EE3C76 /* Square.swift */,
+				025420A32850978B00EE3C76 /* Client.swift */,
 			);
 			path = "Liskov Substitution ";
 			sourceTree = "<group>";
@@ -205,11 +217,15 @@
 				02542094285087F200EE3C76 /* Driving.swift in Sources */,
 				0254209E2850923D00EE3C76 /* Logger.swift in Sources */,
 				025420792850821300EE3C76 /* ViewController.swift in Sources */,
+				025420A02850976A00EE3C76 /* Rectangle.swift in Sources */,
 				0254209C28508C6900EE3C76 /* Course.swift in Sources */,
 				025420962850881000EE3C76 /* Maintenance.swift in Sources */,
 				0254209828508C1000EE3C76 /* Printable.swift in Sources */,
 				0254209A28508C5700EE3C76 /* Student.swift in Sources */,
+				025420A42850978B00EE3C76 /* Client.swift in Sources */,
 				025420752850821300EE3C76 /* AppDelegate.swift in Sources */,
+				025420A22850978000EE3C76 /* Square.swift in Sources */,
+				025420A628509E1900EE3C76 /* Polygon.swift in Sources */,
 				02542091285086D000EE3C76 /* Car.swift in Sources */,
 				025420772850821300EE3C76 /* SceneDelegate.swift in Sources */,
 				0254207F2850821300EE3C76 /* SOLID_iOS.xcdatamodeld in Sources */,

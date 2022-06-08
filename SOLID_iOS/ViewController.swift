@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     let logger: Logger = Logger()
 
     //Liskov Substitution
-
+    let client: Client = Client()
     
     //Interface Segregation
 
@@ -28,7 +28,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         car.addFuel()
+
         logger.printData()
+        
+        client.execute()
     }
 
 }
