@@ -29,6 +29,9 @@
 		025420AA2850A4BB00EE3C76 /* UsersFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025420A92850A4BB00EE3C76 /* UsersFetcher.swift */; };
 		025420AC2850A50300EE3C76 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025420AB2850A50300EE3C76 /* Login.swift */; };
 		025420AE2850A53C00EE3C76 /* Friends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025420AD2850A53C00EE3C76 /* Friends.swift */; };
+		025420B02850A98100EE3C76 /* DatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025420AF2850A98100EE3C76 /* DatabaseService.swift */; };
+		025420B22850A9BD00EE3C76 /* CoreDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025420B12850A9BD00EE3C76 /* CoreDataService.swift */; };
+		025420B42850A9D700EE3C76 /* RealmeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025420B32850A9D700EE3C76 /* RealmeService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +59,9 @@
 		025420A92850A4BB00EE3C76 /* UsersFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersFetcher.swift; sourceTree = "<group>"; };
 		025420AB2850A50300EE3C76 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		025420AD2850A53C00EE3C76 /* Friends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friends.swift; sourceTree = "<group>"; };
+		025420AF2850A98100EE3C76 /* DatabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseService.swift; sourceTree = "<group>"; };
+		025420B12850A9BD00EE3C76 /* CoreDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataService.swift; sourceTree = "<group>"; };
+		025420B32850A9D700EE3C76 /* RealmeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmeService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +157,9 @@
 		0254208F285086AD00EE3C76 /* Dependency Inversion  */ = {
 			isa = PBXGroup;
 			children = (
+				025420AF2850A98100EE3C76 /* DatabaseService.swift */,
+				025420B12850A9BD00EE3C76 /* CoreDataService.swift */,
+				025420B32850A9D700EE3C76 /* RealmeService.swift */,
 			);
 			path = "Dependency Inversion ";
 			sourceTree = "<group>";
@@ -228,10 +237,13 @@
 			files = (
 				025420AE2850A53C00EE3C76 /* Friends.swift in Sources */,
 				02542094285087F200EE3C76 /* Driving.swift in Sources */,
+				025420B02850A98100EE3C76 /* DatabaseService.swift in Sources */,
+				025420B42850A9D700EE3C76 /* RealmeService.swift in Sources */,
 				0254209E2850923D00EE3C76 /* Logger.swift in Sources */,
 				025420792850821300EE3C76 /* ViewController.swift in Sources */,
 				025420AA2850A4BB00EE3C76 /* UsersFetcher.swift in Sources */,
 				025420A02850976A00EE3C76 /* Rectangle.swift in Sources */,
+				025420B22850A9BD00EE3C76 /* CoreDataService.swift in Sources */,
 				0254209C28508C6900EE3C76 /* Course.swift in Sources */,
 				025420962850881000EE3C76 /* Maintenance.swift in Sources */,
 				0254209828508C1000EE3C76 /* Printable.swift in Sources */,

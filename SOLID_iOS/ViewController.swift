@@ -23,7 +23,7 @@ class ViewController: UIViewController {
     let friends: Friends = Friends()
 
     //Dependency Inversion
-
+    var service: DatabaseService?
 
     //MARK: - viewDidLoad
     override func viewDidLoad() {
@@ -31,8 +31,15 @@ class ViewController: UIViewController {
         car.addFuel()
         logger.printData()
         client.execute()
+
         user.getUser()
         friends.getUsers()
+
+        service = RealmeService()
+        service?.getUsers()
+
+        service = CoreDataService()
+        service?.getUsers()
     }
 
 }
