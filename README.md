@@ -15,6 +15,16 @@ SOLID iOS conceptes with examples from Mahara-Tech Course
 
 
 # Liskov Substitution
+###### Objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program.
+###### In other words, if you replace one object with another that’s a subclass and this replacement could break the affected part, then you’re not following this principle.
+
+ . What we learnt from this principle:
+     - If we want to use object from a class as a parameter,
+ we don't need to know it that object is from the parent class or the child class.
+     - If we want to subclass a specific class,
+ we should actually planning to use all the parent class properities/ methods or must need them.
+
+> Applied in this project Using Protocol.
 
 
 
