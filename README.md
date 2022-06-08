@@ -28,7 +28,7 @@ SOLID iOS conceptes with examples from Mahara-Tech Course
 * High level module shouldn't depend on low level module (Strong Coupling)
 * When class use an object of another class The first is high level and the second is low level one.
 * When we use this principle we, by that, make decoupling for them. 
-> Applied in this project Using Apstraction of low level module.
+> Applied in this project Using Abstraction of low level module.
 
 
 
