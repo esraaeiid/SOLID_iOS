@@ -9,11 +9,28 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    //Single Responsibility
+    let car: Car = Car()
+
+    //Open-Closed
+    let logger: Logger = Logger()
+
+    //Liskov Substitution
+
+    
+    //Interface Segregation
+
+
+    //Dependency Inversion
+
+
+    //MARK: - viewDidLoad
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        car.addFuel()
+        logger.printData()
     }
 
-
 }
+
 

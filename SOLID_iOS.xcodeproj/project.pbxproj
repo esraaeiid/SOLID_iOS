@@ -14,6 +14,13 @@
 		0254207F2850821300EE3C76 /* SOLID_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0254207D2850821300EE3C76 /* SOLID_iOS.xcdatamodeld */; };
 		025420812850821600EE3C76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 025420802850821600EE3C76 /* Assets.xcassets */; };
 		025420842850821600EE3C76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 025420822850821600EE3C76 /* LaunchScreen.storyboard */; };
+		02542091285086D000EE3C76 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02542090285086D000EE3C76 /* Car.swift */; };
+		02542094285087F200EE3C76 /* Driving.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02542093285087F200EE3C76 /* Driving.swift */; };
+		025420962850881000EE3C76 /* Maintenance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025420952850881000EE3C76 /* Maintenance.swift */; };
+		0254209828508C1000EE3C76 /* Printable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0254209728508C1000EE3C76 /* Printable.swift */; };
+		0254209A28508C5700EE3C76 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0254209928508C5700EE3C76 /* Student.swift */; };
+		0254209C28508C6900EE3C76 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0254209B28508C6900EE3C76 /* Course.swift */; };
+		0254209E2850923D00EE3C76 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0254209D2850923D00EE3C76 /* Logger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,13 @@
 		025420802850821600EE3C76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		025420832850821600EE3C76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		025420852850821600EE3C76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02542090285086D000EE3C76 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		02542093285087F200EE3C76 /* Driving.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Driving.swift; sourceTree = "<group>"; };
+		025420952850881000EE3C76 /* Maintenance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maintenance.swift; sourceTree = "<group>"; };
+		0254209728508C1000EE3C76 /* Printable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Printable.swift; sourceTree = "<group>"; };
+		0254209928508C5700EE3C76 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		0254209B28508C6900EE3C76 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		0254209D2850923D00EE3C76 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,11 @@
 		025420732850821300EE3C76 /* SOLID_iOS */ = {
 			isa = PBXGroup;
 			children = (
+				0254208F285086AD00EE3C76 /* Dependency Inversion  */,
+				0254208E285086A100EE3C76 /* Interface Segregation  */,
+				0254208D2850869500EE3C76 /* Liskov Substitution  */,
+				0254208C2850867600EE3C76 /* Open Closed  */,
+				0254208B2850866400EE3C76 /* Single Responsibility  */,
 				025420742850821300EE3C76 /* AppDelegate.swift */,
 				025420762850821300EE3C76 /* SceneDelegate.swift */,
 				025420782850821300EE3C76 /* ViewController.swift */,
@@ -68,6 +87,48 @@
 				0254207D2850821300EE3C76 /* SOLID_iOS.xcdatamodeld */,
 			);
 			path = SOLID_iOS;
+			sourceTree = "<group>";
+		};
+		0254208B2850866400EE3C76 /* Single Responsibility  */ = {
+			isa = PBXGroup;
+			children = (
+				02542090285086D000EE3C76 /* Car.swift */,
+				02542093285087F200EE3C76 /* Driving.swift */,
+				025420952850881000EE3C76 /* Maintenance.swift */,
+			);
+			path = "Single Responsibility ";
+			sourceTree = "<group>";
+		};
+		0254208C2850867600EE3C76 /* Open Closed  */ = {
+			isa = PBXGroup;
+			children = (
+				0254209728508C1000EE3C76 /* Printable.swift */,
+				0254209928508C5700EE3C76 /* Student.swift */,
+				0254209B28508C6900EE3C76 /* Course.swift */,
+				0254209D2850923D00EE3C76 /* Logger.swift */,
+			);
+			path = "Open Closed ";
+			sourceTree = "<group>";
+		};
+		0254208D2850869500EE3C76 /* Liskov Substitution  */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Liskov Substitution ";
+			sourceTree = "<group>";
+		};
+		0254208E285086A100EE3C76 /* Interface Segregation  */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Interface Segregation ";
+			sourceTree = "<group>";
+		};
+		0254208F285086AD00EE3C76 /* Dependency Inversion  */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Dependency Inversion ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,8 +202,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02542094285087F200EE3C76 /* Driving.swift in Sources */,
+				0254209E2850923D00EE3C76 /* Logger.swift in Sources */,
 				025420792850821300EE3C76 /* ViewController.swift in Sources */,
+				0254209C28508C6900EE3C76 /* Course.swift in Sources */,
+				025420962850881000EE3C76 /* Maintenance.swift in Sources */,
+				0254209828508C1000EE3C76 /* Printable.swift in Sources */,
+				0254209A28508C5700EE3C76 /* Student.swift in Sources */,
 				025420752850821300EE3C76 /* AppDelegate.swift in Sources */,
+				02542091285086D000EE3C76 /* Car.swift in Sources */,
 				025420772850821300EE3C76 /* SceneDelegate.swift in Sources */,
 				0254207F2850821300EE3C76 /* SOLID_iOS.xcdatamodeld in Sources */,
 			);
