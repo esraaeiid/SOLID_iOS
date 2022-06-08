@@ -25,6 +25,10 @@
 		025420A22850978000EE3C76 /* Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025420A12850978000EE3C76 /* Square.swift */; };
 		025420A42850978B00EE3C76 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025420A32850978B00EE3C76 /* Client.swift */; };
 		025420A628509E1900EE3C76 /* Polygon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025420A528509E1900EE3C76 /* Polygon.swift */; };
+		025420A82850A48D00EE3C76 /* UserFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025420A72850A48D00EE3C76 /* UserFetcher.swift */; };
+		025420AA2850A4BB00EE3C76 /* UsersFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025420A92850A4BB00EE3C76 /* UsersFetcher.swift */; };
+		025420AC2850A50300EE3C76 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025420AB2850A50300EE3C76 /* Login.swift */; };
+		025420AE2850A53C00EE3C76 /* Friends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025420AD2850A53C00EE3C76 /* Friends.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +52,10 @@
 		025420A12850978000EE3C76 /* Square.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Square.swift; sourceTree = "<group>"; };
 		025420A32850978B00EE3C76 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
 		025420A528509E1900EE3C76 /* Polygon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Polygon.swift; sourceTree = "<group>"; };
+		025420A72850A48D00EE3C76 /* UserFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFetcher.swift; sourceTree = "<group>"; };
+		025420A92850A4BB00EE3C76 /* UsersFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersFetcher.swift; sourceTree = "<group>"; };
+		025420AB2850A50300EE3C76 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		025420AD2850A53C00EE3C76 /* Friends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friends.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +140,10 @@
 		0254208E285086A100EE3C76 /* Interface Segregation  */ = {
 			isa = PBXGroup;
 			children = (
+				025420A72850A48D00EE3C76 /* UserFetcher.swift */,
+				025420A92850A4BB00EE3C76 /* UsersFetcher.swift */,
+				025420AB2850A50300EE3C76 /* Login.swift */,
+				025420AD2850A53C00EE3C76 /* Friends.swift */,
 			);
 			path = "Interface Segregation ";
 			sourceTree = "<group>";
@@ -214,9 +226,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				025420AE2850A53C00EE3C76 /* Friends.swift in Sources */,
 				02542094285087F200EE3C76 /* Driving.swift in Sources */,
 				0254209E2850923D00EE3C76 /* Logger.swift in Sources */,
 				025420792850821300EE3C76 /* ViewController.swift in Sources */,
+				025420AA2850A4BB00EE3C76 /* UsersFetcher.swift in Sources */,
 				025420A02850976A00EE3C76 /* Rectangle.swift in Sources */,
 				0254209C28508C6900EE3C76 /* Course.swift in Sources */,
 				025420962850881000EE3C76 /* Maintenance.swift in Sources */,
@@ -226,7 +240,9 @@
 				025420752850821300EE3C76 /* AppDelegate.swift in Sources */,
 				025420A22850978000EE3C76 /* Square.swift in Sources */,
 				025420A628509E1900EE3C76 /* Polygon.swift in Sources */,
+				025420A82850A48D00EE3C76 /* UserFetcher.swift in Sources */,
 				02542091285086D000EE3C76 /* Car.swift in Sources */,
+				025420AC2850A50300EE3C76 /* Login.swift in Sources */,
 				025420772850821300EE3C76 /* SceneDelegate.swift in Sources */,
 				0254207F2850821300EE3C76 /* SOLID_iOS.xcdatamodeld in Sources */,
 			);

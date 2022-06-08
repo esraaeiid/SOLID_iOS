@@ -19,7 +19,8 @@ class ViewController: UIViewController {
     let client: Client = Client()
     
     //Interface Segregation
-
+    let user: Login = Login()
+    let friends: Friends = Friends()
 
     //Dependency Inversion
 
@@ -28,10 +29,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         car.addFuel()
-
         logger.printData()
-        
         client.execute()
+        user.getUser()
+        friends.getUsers()
     }
 
 }
